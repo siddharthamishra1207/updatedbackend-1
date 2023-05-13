@@ -1,0 +1,54 @@
+.credit-card-and-loan-calculator {
+    font-family: Arial, sans-serif;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+  }
+  
+  .credit-card-and-loan-calculator h2 {
+    font-size: 24px;
+    margin-top: 0;
+  }
+  
+  .credit-card-and-loan-calculator h3 {
+    font-size: 20px;
+    margin-top: 20px;
+  }
+  
+  .credit-card-and-loan-calculator .input-group {
+    display: flex;
+    margin-bottom: 10px;
+  }
+  
+  .credit-card-and-loan-calculator label {
+    flex-basis: 150px;
+    font-size: 18px;
+  }
+  
+  .credit-card-and-loan-calculator input[type="number"] {
+    font-size: 18px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 100%;
+  }
+  
+  .credit-card-and-loan-calculator .results {
+    margin-top: 30px;
+  }
+  
+  .credit-card-and-loan-calculator .result {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  
+  .credit-card-and-loan-calculator .result span:first-child {
+    font-weight: bold;
+    margin-right: 10px;
+  }
+  
+  .credit-card-and-loan-calculator .result span:last-child {
+    font-weight: bold;
+  }

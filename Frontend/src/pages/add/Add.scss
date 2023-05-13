@@ -1,0 +1,44 @@
+
+  
+      // h1 {
+      //   width: max-content;
+      //   margin-bottom: 30px;
+      //   color: gray;
+      //   font-weight: 300;
+      // }
+  
+      
+  
+        // label {
+        //   color: gray;
+        //   font-size: 18px;
+        // }
+  
+        .info,
+        .details {
+          width: 60%;
+          flex: 1;
+          display: flex;
+          flex-direction: column;
+          gap: 10px;
+          justify-content: space-between;
+          margin-left: 20%;
+  
+          input,
+          select,
+          textarea {
+            padding: 10px;
+            outline:none;
+            
+          }
+  
+          button {
+            border: none;
+            padding: 10px;
+            color: white;
+            font-weight: 500;
+            font-size: 14px;
+            background-color: #1dbf73;
+            cursor: pointer;
+          }
+        }

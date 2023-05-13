@@ -1,0 +1,42 @@
+h3 {
+    color: black;
+    font-family: italic;
+    font-size: 27px;
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    .initial{
+        h4{
+        select{
+            margin-left: 2rem;
+            width: 10rem;
+            outline: none;
+            height: 2rem;
+        }
+    }
+    }
+    .info {
+        display: flex;
+        justify-content: space-between;
+
+        .rank {
+            margin-left: 2rem;
+            text-align: center;
+
+            h4 {
+                font-size: 25px;
+            }
+        }
+
+        .points {
+            text-align: center;
+
+            h4 {
+                font-size: 25px;
+            }
+        }
+    }
+}

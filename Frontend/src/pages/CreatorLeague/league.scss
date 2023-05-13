@@ -1,0 +1,47 @@
+.nav{
+    ul{
+        list-style: none;
+        display: flex;
+        margin-top: 1%;
+        width: 60%;
+        li{
+            margin-left: 10%;
+            font-family: Georgia, serif;    
+            cursor: pointer;  
+         }
+    }
+}
+.schedule{
+    margin-left: 5%;
+    margin-top: 3%;
+    width: 90%;
+    h3{
+        font-weight: 600;
+        font-size: 1.4rem;
+        color: black;
+        font-family: italic;   
+    }
+    .panels{
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    }
+}
+hr{
+    margin-top: 2%;
+    width: 90%;
+    margin-left:5%;
+    color: rgba(243, 240, 240, 0.999);
+    background: linear-gradient(to right, rgba(255,255,255,0) 0%,rgba(255,255,255,1) 50%,rgba(255,255,255,0) 100%);
+}
+.leagueDetails{
+    margin-left: 5%;
+    margin-top: 1%;
+}
+.listP{
+    margin-left: 10%;
+    width: 80%;
+    margin-top: 2%;
+    display: flex;
+    justify-content: space-between;
+}

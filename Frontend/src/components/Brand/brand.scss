@@ -1,0 +1,24 @@
+.list {
+  display: flex;
+  flex-direction: column;
+  .proposal {
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid rgba(0, 0, 0, 0.277);
+    width: 50vw;
+    height: 10vh;
+    margin-left: -20px;
+    box-shadow: 1px 1px rgb(182, 178, 178);
+    margin-top:5%;
+    padding: 2px;
+    button{
+      height: 2rem;
+      width: 6rem;
+      border: none;
+      background: rgb(58, 165, 135);
+      color: white;
+      cursor: pointer;
+      border-radius: 3px;
+    }
+  }
+}
